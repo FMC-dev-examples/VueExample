@@ -10,6 +10,6 @@ export default {
     },
     phone: value => {
         const pattern = /^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\s./0-9]*$/
-        return pattern.test(value) || !value || 'Неправильно указан номер телефону'
+        return pattern.test(value) || !value || 'Неправильно указан номер телефона'
     }
 };
