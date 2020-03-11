@@ -92,11 +92,3 @@ export default {
     }
 }
 </script>
-
-<style>
-.pd-flying-entry {
-    position: absolute;
-    bottom: 25px;
-    right: 10px;
-}
-</style>
