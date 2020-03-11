@@ -1,2 +1,3 @@
 # VueExample
-Vue, Vuetify (bit of vuex&amp;router)
+Few vue files
+Use of vue and vuetify ui
