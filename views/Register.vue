@@ -44,7 +44,6 @@
 
 <script>
 import steps from '@/stats/registrationSteps.js';
-import validation from '@/stats/validation.js';
 import Names from '@/components/Steppers/Register/Names.vue';
 import Contacts from '@/components/Steppers/Register/Contacts.vue';
 import Password from '@/components/Steppers/Register/Password.vue';
@@ -54,8 +53,6 @@ export default {
     data: () => ({
         step: 1,
         steps: steps,
-        valid: true,
-        validation: validation,
         user: {
             firstName: '',
             secondName: '',
